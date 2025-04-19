@@ -1,34 +1,28 @@
-# Roll20-Dice-Roller-1.0.1
-Hello! This is my Roll20 Dice Roller version 1.0.1. 
+# Roll20-Dice-Roller
+Hello! This is my Roll20 Dice Roller version 1.0.2. 
+For personal use only.
+Last time updated: 19th april 2025 by lohikrme
 
-All rights reserved. For personal use only.
 
-Last time updated: 5th january 2023.
+## Where and how to use it?:
 
-----------------------------------------------------------------------
-Where to use it?:
+![alt text](images/image.png)
+- This code is intended to be used only in app.roll20.net/editor website
+- If this code is enabled on the browser and running while gaming at roll20 website, the player can just click a number between 1 and 9 on their keyboard to roll d6 dices
+- To have a pause of rolling and to instead just write normal numbers, the player can click left control on their keyboard to toggle pause on/off. During pause software won't make dice rolls.
+- as seen in image above, if dice roller is turned on, its logo will appear on right up corner of the chat
 
-This code works on chrome web browser. And is intended to be used inside the roll20.net gaming website.
+## How to enable the code?:
 
-----------------------------------------------------------------------
-How to use it?:
+![alt text](images/inspector.png)
+- Open web browser and press F12. This opens an inspector for you. 
+- Find inside inspector "Sources" -> "Snippets" -> "New snippets" to create a new code
+- After copying and pasteing this code inside the new snippet and saving (for example with control + S), it will be saved on your browser inspector.
+- To start the code, open the roll20 website where u plan to play, and there open the inspector with F12, go to "Sources" -> "Snippets" and right click the snippet u already created. Select "Run".
+- This code will automatically turn off after closing the browser or the web page.
 
-Open chrome, press F12. This opens inspector for you. There create a new snipper with a descriptive name, and remember
-to add the tag ".js" to end of this name, so the browser knows this code is javascript language.
-Then copy paste all this code into the snippet, and save.
-After that, open the roll20.net website, launch a game, and once the map has been launched, again open the inspector with F12.
-Go to the "sources", and there find the snippet you created previously. Right click the snippet, and press "run".
-Now the code should be working. But remember, every time u close the roll20 game tab, it turns off the snippet.
-So you must run it again when u log back in to roll20 game.
 
-----------------------------------------------------------------------
-What does it do?:
 
-This snippet replaces the hassle of writing "/roll 2d6" or similar to the chat box inside roll20.net.
-Instead, this snippet does that every time user presses a key between 1 and 9. For example, press 6.
-On release, this code will roll 6d6.
+## Is it safe?:
 
-----------------------------------------------------------------------
-Is it safe?:
-
-This code is super safe. Everyone can see its content, and it only scripts a bit keyboard usage.
+This code is super safe. It does not store or send any kind of information, and it will work only on the web page it was turned on. E.g if you open roll20 website turn the snippet on there, other pages will act normally. 
