@@ -9,7 +9,7 @@ Last time updated: 19th april 2025 by lohikrme
 ![alt text](images/image.png)
 - This code is intended to be used only in app.roll20.net/editor website
 - If this code is enabled on the browser and running while gaming at roll20 website, the player can just click a number between 1 and 9 on their keyboard to roll d6 dices
-- To have a pause of rolling and to instead just write normal numbers, the player can click left control on their keyboard to toggle pause on/off. During pause software won't make dice rolls.
+- To pause rolling (e.g needs write normal numbers) the player can click the 'ESC' button on their keyboard to toggle rolling on/off. 
 - as seen in image above, if dice roller is turned on, its logo will appear on right up corner of the chat
 
 ## How to enable the code?:

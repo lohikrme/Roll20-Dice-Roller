@@ -86,7 +86,7 @@ function KeyUpHandler(event) {
     }
 
     // User wants to keep break a from rolls so he can write text with numbers
-    else if (event.keyCode === 17) {
+    else if (event.keyCode === 27) {
         receiving_rolls = (receiving_rolls) ? false : true;
     }
 
